@@ -1,0 +1,10 @@
+# XSap is built on Ubuntu: every text file is LF in the working tree. Declaring
+# it here stops a checkout on Windows, or an editor that guesses, from silently
+# rewriting whole files to CRLF.
+
+* text=auto eol=lf
+
+# Binary. Never touch these.
+*.wav binary
+*.png binary
+*.ico binary

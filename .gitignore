@@ -1,0 +1,12 @@
+build/
+build-validation/
+
+# Legacy build output
+old/*.o
+old/xsap
+
+# Editor and OS files
+.vscode/
+.idea/
+*~
+.DS_Store

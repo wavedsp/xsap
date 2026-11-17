@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=XSAP
+GenericName=Speech Analysis Program
+Comment=View and analyze speech waveforms
+Exec=xsap %F
+Icon=org.tianwang.xsap
+Terminal=false
+Categories=AudioVideo;Audio;
+MimeType=audio/x-wav;audio/wav;
+StartupNotify=true
+StartupWMClass=org.tianwang.xsap
